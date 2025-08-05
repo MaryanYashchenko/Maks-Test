@@ -1,0 +1,109 @@
+.card {
+  margin: 0;
+  border-radius: 1.25rem;
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 18.75rem;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.15);
+}
+
+.card-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 1.25rem;
+}
+
+.card-info {
+  padding: 0.625rem 1.875rem 1.25rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card-name {
+  margin: 0;
+  padding-bottom: 0.625rem;
+  text-align: center;
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #333333;
+  grid-column: 1 / -1;
+}
+
+.card-price {
+  font-size: 1.625rem;
+  font-weight: bold;
+  color: #1a701e;
+}
+
+.card-rating__svg {
+  width: 1rem;
+  fill: #1a701e;
+}
+.card-rating {
+  font-size: 1.375rem;
+  color: #f9a825;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.card-rating__icon {
+  font-size: 1.375rem;
+}
+
+.card-price,
+.card-rating {
+  margin: 0;
+  align-self: left;
+  padding: 1rem;
+}
+
+.card-amount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+  font-size: 1.875rem;
+  background-color: #d5e0ff;
+  border-radius: 0.9375rem;
+}
+
+.card-details {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3125rem;
+}
+
+.card-amount__buttons {
+  display: grid;
+  row-gap: 0.5rem;
+}
+
+.card-amount__text {
+  color: #333333;
+  font-weight: 600;
+}
+
+.card-amount__button {
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.card-amount__button:hover {
+  background-color: #1565c0;
+}
