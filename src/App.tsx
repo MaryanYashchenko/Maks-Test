@@ -1,10 +1,10 @@
-import "./App.css";
-import RecipesAPI from "./API/RecipesAPI.tsx";
+import "./App.module.css";
+import ProductCardList from "./components/ProductCartList/ProductCardList.tsx";
 
 function App() {
   return (
     <>
-      <RecipesAPI />;
+      <ProductCardList />;
     </>
   );
 }

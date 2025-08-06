@@ -1,4 +1,4 @@
-.card-list {
+.cardList {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 6.25rem;
@@ -9,14 +9,14 @@
 }
 
 @media (max-width: 75rem) {
-  .card-list {
+  .cardList {
     grid-template-columns: repeat(3, 1fr);
     gap: 4rem;
   }
 }
 
 @media (max-width: 56.25rem) {
-  .card-list {
+  .cardList {
     grid-template-columns: repeat(2, 1fr);
     padding: 1rem;
     gap: 2rem;
@@ -24,7 +24,7 @@
 }
 
 @media (max-width: 37.5rem) {
-  .card-list {
+  .cardList {
     grid-template-columns: 1fr;
     gap: 1rem;
     padding: 0.5rem;
