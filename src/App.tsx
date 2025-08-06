@@ -1,27 +1,12 @@
-// import React from "react";
-import "./App.css";
+import "./App.module.css";
+import ProductCardList from "./components/ProductCartList/ProductCardList.tsx";
 
-type UserProps = {
-  name: string;
-  age: number;
-};
-
-const UserCard: React.FC<UserProps> = ({ name, age }) => {
+function App() {
   return (
-    <div>
-      <h2>{name}</h2>
-      <p>Age: {age}</p>
-    </div>
+    <>
+      <ProductCardList />;
+    </>
   );
-};
-
-const App: React.FC = () => {
-  return (
-    <div>
-      <h1>Hello, TSX!</h1>
-      <UserCard name="Maryan" age={25} />
-    </div>
-  );
-};
+}
 
 export default App;
