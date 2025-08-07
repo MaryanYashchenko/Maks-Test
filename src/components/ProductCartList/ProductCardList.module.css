@@ -3,9 +3,10 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 6.25rem;
   padding: 1.5rem;
-  max-width: 120rem;
+  max-width: 100rem;
   margin: 0 auto;
   box-sizing: border-box;
+  justify-content: start;
 }
 
 @media (max-width: 75rem) {
@@ -28,5 +29,6 @@
     grid-template-columns: 1fr;
     gap: 1rem;
     padding: 0.5rem;
+    justify-content: center;
   }
 }
