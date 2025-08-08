@@ -1,10 +1,10 @@
 import "./App.module.css";
-import ProductCardList from "./components/ProductCartList/ProductCardList.tsx";
 
+import ProductFilterList from "./components/ProductFilterList/ProductFilterList.tsx";
 function App() {
   return (
     <>
-      <ProductCardList />;
+      <ProductFilterList />
     </>
   );
 }
