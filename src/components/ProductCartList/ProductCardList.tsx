@@ -8,6 +8,7 @@ interface ProductCardListProps {
 }
 
 const ProductCardList: FC<ProductCardListProps> = ({ recipes }) => {
+
   return (
     <div className={styles.cardList}>
       {recipes.map((recipe) => (

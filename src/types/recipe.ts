@@ -5,4 +5,5 @@ export interface Recipe {
   image: string;
   prepTimeMinutes: number;
   mealType: string;
+
 }

@@ -7,6 +7,7 @@
   margin: 0 auto;
   box-sizing: border-box;
   justify-content: start;
+
 }
 
 @media (max-width: 75rem) {
@@ -30,5 +31,6 @@
     gap: 1rem;
     padding: 0.5rem;
     justify-content: center;
+
   }
 }
