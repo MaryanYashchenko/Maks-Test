@@ -1,11 +1,17 @@
 import "./App.module.css";
-import ProductCardList from "./components/ProductCartList/ProductCardList.tsx";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ProductFilterList from "./components/ProductFilterList/ProductFilterList.tsx";
+import Header from "./components/Header/Header.tsx";
+import ShoppingCart from "./components/ShoppingCart/ShoppingCart";
 function App() {
   return (
-    <>
-      <ProductCardList />;
-    </>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<ProductFilterList />} />
+        <Route path="/cart" element={<ShoppingCart />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
